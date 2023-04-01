@@ -2,9 +2,9 @@ const Web3 = require('web3');
 const axios = require('axios');
 
 const CONTRACT_ABI = require('./abi.json'); // import the ABI JSON file
-const CONTRACT_ADDRESS = '0x1Bdb65c43bB546198fA9576325721eae7B5884bA'; 
-const OWNER_ADDRESS = '0x0A1bA9481507648Ed2bffA92731519030Cd89308'; 
-const PRIVATE_KEY = '0x825b935d2b3a6287b54a4e5f31e8d1ac383b02a5cecf040b114b34707a475a3b'; 
+const CONTRACT_ADDRESS = '0x566189880aCa09BA7aA696D9b6630A4Eb2Bb043f'; 
+const OWNER_ADDRESS = '0xf3036c8A9772652865001AAfcbc4EE52A44b2614'; 
+const PRIVATE_KEY = ''; 
 
 async function fetchPaxGoldPrice() {
   const response = await axios.get('https://api.coingecko.com/api/v3/simple/price?ids=pax-gold&vs_currencies=usd');
